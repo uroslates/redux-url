@@ -1,11 +1,11 @@
 {
   "name": "redux-url",
   "version": "1.0.0",
-  "description": "",
+  "description": "Custom Redux implementation",
   "main": "index.js",
   "scripts": {
-    "postinstall": "typings install --overwrite --save",
-    "test": "karma start"
+    "postinstall": "./node_modules/.bin/typings install --overwrite --save",
+    "test": "./node_modules/.bin/karma start"
   },
   "author": "",
   "license": "ISC",
@@ -27,8 +27,5 @@
     "typescript": "^2.1.4",
     "typings": "^1.4.0",
     "webpack": "^1.12.12"
-  },
-  "dependencies": {
-    "jquery": "^2.2.0"
   }
 }
